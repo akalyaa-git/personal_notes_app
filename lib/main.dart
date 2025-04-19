@@ -9,6 +9,10 @@ void main() async {
   // Ensure that the widgets are bound to the Flutter engine before initializing Firebase
   WidgetsFlutterBinding.ensureInitialized();
 
+  // Ensure that the dotenv file is loaded before any other code
+  await dotenv.load(fileName: 'assets/.env');
+  print(dotenv.env['FIREBASE_API_KEY']); // This should print your API key
+
   // Firebase initialization for different platforms
   if (kIsWeb) {
     // For web, use FirebaseOptions to initialize the Firebase app
