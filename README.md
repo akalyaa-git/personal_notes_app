@@ -1,9 +1,3 @@
-# personal_notes_app
-
-A new Flutter project.
-
-## Getting Started
-
 # Personal Notes App
 A simple and user-friendly mobile app built with Flutter that allows users to add, edit, delete, and manage their notes with Firebase Authentication and Firestore integration.
 
@@ -36,7 +30,7 @@ Follow these steps to get your development environment set up for the Personal N
 - Download google-services.json or GoogleService-Info.plist:
 - Follow the steps for your platform to download and add the respective config files to your Flutter project.
 
-* Screens
+# Screens
 1. Splash Screen - Displays the app logo and name for 2 seconds before navigating to the login screen.
 
 2. Login Screen 
